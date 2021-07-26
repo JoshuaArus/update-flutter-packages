@@ -1,4 +1,9 @@
 # Flutter Package Updater
+
+Forked from https://github.com/tianhaoz95/update-flutter-packages.
+
+Modified for using [dapackage](https://pub.dev/packages/dapackages) command to update pubspec.yaml file besides pubspec.lock
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -41,7 +46,7 @@ jobs:
           flutter-version: '1.12.13+hotfix.5'
           channel: 'stable'
       - name: run flutter package updater
-        uses: tianhaoz95/update-flutter-packages@v0.0.1
+        uses: joshuaarus/update-flutter-packages@v0.0.1
         with:
           flutter-project: './sample_flutter_app'
           git-email: 'tianhaoz@umich.edu'
