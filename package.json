@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tianhaoz95/update-flutter-packages.git"
+    "url": "git+https://github.com/joshuaarus/update-flutter-packages.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tianhaoz95/update-flutter-packages/issues"
+    "url": "https://github.com/joshuaarus/update-flutter-packages/issues"
   },
-  "homepage": "https://github.com/tianhaoz95/update-flutter-packages#readme",
+  "homepage": "https://github.com/joshuaarus/update-flutter-packages#readme",
   "dependencies": {
     "@actions/artifact": "^0.1.0",
     "@actions/core": "^1.2.2",
