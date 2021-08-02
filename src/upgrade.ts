@@ -11,6 +11,9 @@ async function updateFlutterWorkspace(context: ApplicationContext) {
   await exec("flutter pub run dapackages:dapackages.dart ./pubspec.yaml", [], {
     cwd: context.flutterProjectWorkspace
   });
+  await exec("flutter pub get", [], {
+    cwd: context.flutterProjectWorkspace
+  });
   await exec("git", [
     "config",
     "--global",
